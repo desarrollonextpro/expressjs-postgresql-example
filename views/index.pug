@@ -10,13 +10,13 @@ block content
     form.form-inline(align="center" id="createForm" method="post" action="/values")
       div.form-group
         input.form-control(type="text" name="value" id="value" placeholder="Value" maxlength=32)
-        button.btn.btn-success(type="submit" id="create") Submit
+        button.btn.btn-success(type="submit" id="create") Agregar
 
   br
 
   div(align="center")
     ul.list-group(id="list" style="width:400px")
-      li.list-group-item.active Values
+      li.list-group-item.active Valores
       each val, uuid in values
         li.list-group-item(id=uuid)
           div(align="right" style="float:right")
