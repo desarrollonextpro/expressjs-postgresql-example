@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "start": "node ./bin/www",
-    "build": "yarn build"
+    "build": "nmp run build"
   },
   "engines": {
     "node": "^12"
