@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "start": "node ./bin/www",
-    "build": "generate"
+    "build": "node ./bin/build"
   },
   "engines": {
     "node": "^12"
